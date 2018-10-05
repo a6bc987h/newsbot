@@ -23,6 +23,8 @@ I'm a group manager bot maintained by [this noob](tg://user?id={}).
 I'm here to help the  ɴᴇᴡs ᴄᴏʀɴᴇʀ Group! Hit /help to find out more about how to use me to my full potential.
 We also have a news channel, @TgNewsCorner for instead news updates !
 
+പിന്നെ ഒരു കാര്യം,എന്നെ നോക്കി നടത്തുന്നത് ഒരു [നാടൻ മലയാളി ചെക്കൻ](tg://user?id={}) ആണ്.
+അതുകൊണ്ട് തന്നെ ഞാൻ ഒരു half-malayali റോബോട്ട് കൂടി ആണ്.
 """
 
 HELP_STRINGS = """
