@@ -74,7 +74,7 @@ __help__ = """
 AFK ഓൺ ആക്കി വെച്ചാൽ നിങ്ങളെ ആര് മെൻഷൻ ചെയ്താലും നിങ്ങ സ്ഥലത്തില്ലന്ന് പറയും......
 """
 
-__mod_name__ = "കി.നീ.അ"
+__mod_name__ = "AFK"
 
 AFK_HANDLER = DisableAbleCommandHandler("afk", afk)
 AFK_REGEX_HANDLER = DisableAbleRegexHandler("(?i)brb", afk, friendly="afk")
