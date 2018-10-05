@@ -23,6 +23,8 @@ I'm a group manager bot maintained by [this noob](tg://user?id={}).
 I'm here to help the  ɴᴇᴡs ᴄᴏʀɴᴇʀ Group! Hit /help to find out more about how to use me to my full potential.
 We also have a news channel, @TgNewsCorner for instead news updates !
 
+പിന്നെ ഒരു കാര്യം,എന്നെ നോക്കി നടത്തുന്നത് ഒരു [നാടൻ മലയാളി ചെക്കൻ](tg://user?id={}) ആണ്.
+അതുകൊണ്ട് തന്നെ ഞാൻ ഒരു half-malayali റോബോട്ട് കൂടി ആണ്.
 """
 
 HELP_STRINGS = """
@@ -35,7 +37,7 @@ A few handy commands are:
  - /donate: gives you info on how to support me and my creator.
 {}
 All commands can be used with the following: / !
-""".format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "മേൽപ്പറഞ്ഞ സാധനങ്ങൾ എല്ലാം / അല്ലെങ്കിൽ ! വെച്ച് ഉപയോഗിക്കാവുന്നതാണ്..... \n")
+""".format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
 DONATE_STRING = """So you want to donate? Amazing!
 It took a lot of work for my creator to get me to where I am now - so if you have some money to spare, and want to show your support; Donate!
