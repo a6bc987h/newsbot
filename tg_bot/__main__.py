@@ -35,7 +35,7 @@ A few handy commands are:
  - /donate: gives you info on how to support me and my creator.
 {}
 All commands can be used with the following: / !
-""".format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "മേൽപ്പറഞ്ഞ സാധനങ്ങൾ എല്ലാം / അല്ലെങ്കിൽ ! വെച്ച് ഉപയോഗിക്കാവുന്നതാണ്..... \n")
+""".format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
 DONATE_STRING = """So you want to donate? Amazing!
 It took a lot of work for my creator to get me to where I am now - so if you have some money to spare, and want to show your support; Donate!
