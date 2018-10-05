@@ -17,35 +17,30 @@ from tg_bot.modules import ALL_MODULES
 from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
-PM_START_TEXT = """
-
-വരണം... വരണം.. {}, ഞാൻ {}! ഈ  [മഹാമനസ്കൻ](tg://user?id={}) ആണ് എന്നെ വെളിച്ചം കാണിച്ചത്... അതുകൊണ്ട് ആ നന്ദി അദ്ദേഹത്തോട് എപ്പോഴും വേണം എന്ന് താഴ്മയായി അപേക്ഷിച്ചുകൊള്ളുന്നു.....
-
-എന്നെ നിർമ്മിച്ചിരിക്കുന്നത് python3 യിൽ python-telegram-bot ലൈബ്രറി ഉപയോഗിച്ചാണ്. ഞാൻ പൂർണ്ണമായിട്ടും ഓപ്പൺസോഴ്സ്ഡ് ആണ്. എന്റെ കോഡ് നിങ്ങൾക്ക് [ഇവിടെ](https://github.com/K1DD0SC4LLM3NOOB/trollan-bot) കാണുവാൻ സാധിക്കും.
-
-എന്റെ അപ്ഡേറ്റുകളെക്കുറിച്ചും പ്രവർത്തനത്തെപറ്റിയും അറിയുവാൻ [ഈ ഗ്രൂപ്പിൽ](t.me/mariebotmalayalamsupport) വന്നാൽ മതിയാകും... 
-
-ലഭ്യമായ കമാന്റുകളെപ്പറ്റി അറിയുവാൻ /help അമർത്തുക.
-
+PM_START_TEXT = """Hai {}, 
+My name is {}! 
+I'm a group manager bot maintained by [this noob](tg://user?id={}).
+I'm here to help the  ɴᴇᴡs ᴄᴏʀɴᴇʀ Group! Hit /help to find out more about how to use me to my full potential.
+We also have a news channel, @TgNewsCorner for instead news updates !
 
 """
 
 HELP_STRINGS = """
-ഹലോ ! എന്റെ പേര്  *{}*.
-ഞാൻ ഒരു കട്ട ട്രോളൻ ഉണ്ടാക്കിയ ബോട്ട് ആണ്.... ഒരു കട്ട ട്രോളൻ ഉണ്ടാക്കിയ ബോട്ട് ആയതുകൊണ്ട് തന്നെ എന്നെ നല്ലപോലെ സഹിക്കേണ്ടി വരും.......
-*Main* ലഭ്യമായ Commandകൾ:
- - /start: ബോട്ടിനെ സ്റ്റാർട്ട് ആക്കാൻ..
- - /help: ഈ മെസ്സേജ് നിങ്ങളുടെ PMൽ കിട്ടാൻ....
- - /help <module name>: ഒരു പ്രത്യേക Moduleനെ കുറിച്ചുള്ള സഹായം PMൽ ലഭിക്കാൻ.....
- - /donate:ബക്കറ്റ് പിരിവിന് എന്തേലും തന്ന് സഹായിക്കാൻ....
- - /settings:
-   - in PM: നിങ്ങൾ ഇപ്പോൾ ഉപയോഗിച്ചുകൊണ്ടിരിക്കുന്ന യന്ത്രത്തിന്റെ Settings അറിയാൻ.....
-   - in a group: ഗ്രൂപ്പിൽ അടിച്ചാലും മേൽപ്പറഞ്ഞ കടികൾ PMൽ ആണ് വരൂ.....
+Hey! My name is *{}*. I am a group management bot, here to help you get around and keep the order in your groups!
+I have lots of handy features, such as flood control, a warning system, a note keeping system, and even predetermined replies on certain keywords.
+
+A few handy commands are:
+ - /start: starts me! You've probably already used this.
+ - /help: gets this message out; I'll tell you more about myself!'
+ - /donate: gives you info on how to support me and my creator.
 {}
-And the following:
+All commands can be used with the following: / !
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "മേൽപ്പറഞ്ഞ സാധനങ്ങൾ എല്ലാം / അല്ലെങ്കിൽ ! വെച്ച് ഉപയോഗിക്കാവുന്നതാണ്..... \n")
 
-DONATE_STRING = """നന്ദി ഉണ്ട് കുട്ടി ഈ കാലത്ത് വെറുതെ ഒരാൾ 25000 രൂപ ഒക്കെ തരുവാണെന്ന് പറഞ്ഞാൽ.... എന്തായാലും കൊണ്ടുവന്നതല്ലേ [ഇവിടെ ഇട്ടോ](t.me/DontTagMeLooser) ."""
+DONATE_STRING = """So you want to donate? Amazing!
+It took a lot of work for my creator to get me to where I am now - so if you have some money to spare, and want to show your support; Donate!
+After all, server fees don't pay themselves - so every little helps! All donation money goes straight to funding the VPS, and of course, boosting morale - always nice to see your work is appreciated :)
+[Click here to know the ways to donate me](https://telegra.ph/Donate-10-04)."""
 
 IMPORTED = {}
 MIGRATEABLE = []
