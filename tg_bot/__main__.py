@@ -20,11 +20,11 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 PM_START_TEXT = """Hai {}, 
 My name is {}! 
 I'm a group manager bot maintained by [this noob](tg://user?id={}).
-I'm here to help the  ɴᴇᴡs ᴄᴏʀɴᴇʀ Group! Hit /help to find out more about how to use me to my full potential.
-We also have a news channel, @TgNewsCorner for instead news updates !
-
+I'm here to help the  [ɴᴇᴡs ᴄᴏʀɴᴇʀ](t.me/news_corner) Group! Hit /help to find out more about how to use me to my full potential.
 പിന്നെ ഒരു കാര്യം,എന്നെ നോക്കി നടത്തുന്നത് ഒരു [നാടൻ മലയാളി ചെക്കൻ](tg://user?id={}) ആണ്.
 അതുകൊണ്ട് തന്നെ ഞാൻ ഒരു half-malayali റോബോട്ട് കൂടി ആണ്.
+[Click here to share ɴᴇᴡs ᴄᴏʀɴᴇʀ group to your friends](https://t.me/share/url?url=https://t.me/news_corner)
+മലയാളത്തിലെയും ഇംഗ്ലീഷിലേയും പ്രമുഖചാനലുകളുടെയും പത്രങ്ങളുടെയും   വാർത്തകൾ ഇൻസ്റ്റന്റ് വ്യൂ വിൽ ലഭിക്കുവാനും ഒറ്റ ക്ലിക്കിൽ വായിക്കുവാനും [۩ ɴᴇᴡs ᴄᴏʀɴᴇʀ ۩ ലിൽ](t.me/news_corner)  ജോയിൻ ചെയ്യുക.
 """
 
 HELP_STRINGS = """
